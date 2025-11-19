@@ -99,6 +99,7 @@ class DPREmbedder:
 
 
 def main():
+    """Test the DPREmbedder class with sample documents."""
     query_model_name = "facebook/dpr-question_encoder-single-nq-base"
     context_model_name = "facebook/dpr-ctx_encoder-single-nq-base"
     device = "cuda" if torch.cuda.is_available() else "cpu"
